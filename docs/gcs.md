@@ -41,7 +41,7 @@ Após terminar a instalação do **readxl**, instale o **tidyverse** com o segui
 install.packages("tidyverse")
 ```    
   
-Em caso de erro para instalar o tidyverse, pode ser que estejam faltando algumas dependências. Neste caso, instale os programas listados abaixo:
+Em caso de erro para instalar o tidyverse, pode ser que estejam faltando algumas dependências. Neste caso, instale os pacotes listados abaixo no terminal:
 ```
 sudo yum install libxml2-devel  
 ```   
