@@ -63,4 +63,4 @@ install.packages("plotly")
 ```  
   
 Após todas as dependências instaladas com sucesso, clique em **Session** e
-**Restart R**. Feito isso rode o projeto novamente. [# Como rodar o projeto](# Como rodar o projeto)
+**Restart R**. Feito isso rode o projeto novamente. [Como rodar o projeto](https://github.com/LeonardoRk/fluxo-rec-desp/blob/configuracao_rstudio/docs/gcs.md#como-rodar-o-projeto)
