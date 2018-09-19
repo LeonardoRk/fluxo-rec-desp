@@ -19,7 +19,7 @@ Selecione o arquivo chamado fluxo-rec-desp.Rmd e clique em abrir para que o arqu
   
 Após concluir o passo anterior, clique em **Run** indicado com uma setinha verde e selecione a opção **Run all**.  
   
-Provavelmente faltarão alguma bibliotecas para serem instaladas.  
+Em caso de faltar dependências, instale as dependências. [Instalar dependências](https://github.com/LeonardoRk/fluxo-rec-desp/blob/configuracao_rstudio/docs/gcs.md#instalando-depend%C3%AAncias)  
   
     
 # Instalando dependências    
