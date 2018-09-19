@@ -51,7 +51,7 @@ sudo yum install openssl-devel
 sudo yum install libcurl-devel
 ```    
 
-Volter à **console**  
+Volte à **console** e digite:  
 
 ```
 install.packages("tidyverse")
