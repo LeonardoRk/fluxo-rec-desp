@@ -37,11 +37,8 @@ install.packages("readxl")
 Após terminar a instalação do **readxl**, instale o **tidyverse** com o seguinte comando:  
   
 - Tidyverse    
-```
-install.packages("tidyverse")
-```    
   
-Em caso de erro para instalar o tidyverse, pode ser que estejam faltando algumas dependências. Neste caso, instale os pacotes listados abaixo no terminal:
+Em caso de não ter os pacotes abaixo, instale-os no **terminal**, não no **console**:
 ```
 sudo yum install libxml2-devel  
 ```   
@@ -52,8 +49,13 @@ sudo yum install openssl-devel
 
 ```   
 sudo yum install libcurl-devel
-```  
-  
+```    
+
+Volter à **console**  
+
+```
+install.packages("tidyverse")
+```    
     
 - Plotyly  
 ```
