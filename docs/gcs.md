@@ -27,14 +27,16 @@ Para instalar algum pacote no RStudio, vá no terminal da ferramenta e digite:
 ```
 install.packages(<nome do pacote>)
 ```  
-## Alguns pacotes necessários para instalar  
 
 Na console da própria ferramenta digite:  
+- ReadXL
 ```  
 install.packages("readxl")
 ```  
   
 Após terminar a instalação do **readxl**, instale o **tidyverse** com o seguinte comando:  
+  
+- Tidyverse    
 ```
 install.packages("tidyverse")
 ```    
@@ -52,4 +54,11 @@ sudo yum install openssl-devel
 sudo yum install libcurl-devel
 ```  
   
-
+    
+- Plotyly  
+```
+install.packages("plotly")
+```  
+  
+Após todas as dependências instaladas com sucesso, clique em **Session** e
+**Restart R**. Feito isso rode o projeto novamente. [# Como rodar o projeto](# Como rodar o projeto)
