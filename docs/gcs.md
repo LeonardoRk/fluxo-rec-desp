@@ -22,7 +22,13 @@ Após concluir o passo anterior, clique em **Run** indicado com uma setinha verd
 Provavelmente faltarão alguma bibliotecas para serem instaladas.  
   
     
-# Instalando dependências  
+# Instalando dependências    
+Para instalar algum pacote no RStudio, vá no terminal da ferramenta e digite:  
+```
+install.packages(<nome do pacote>)
+```  
+## Alguns pacotes necessários para instalar  
+
 Na console da própria ferramenta digite:  
 ```  
 install.packages("readxl")
@@ -31,6 +37,19 @@ install.packages("readxl")
 Após terminar a instalação do **readxl**, instale o **tidyverse** com o seguinte comando:  
 ```
 install.packages("tidyverse")
+```    
+  
+Em caso de erro para instalar o tidyverse, pode ser que estejam faltando algumas dependências. Neste caso, instale os programas listados abaixo:
+```
+sudo yum install libxml2-devel  
+```   
+
+```
+sudo yum install openssl-devel  
+```    
+
+```   
+sudo yum install libcurl-devel
 ```  
   
-É possível que faltem alguns pacotes para serem instalados, como por exemplo 
+
